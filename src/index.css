@@ -1,0 +1,79 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+#editor{
+  height: 300px;
+  width: 800px;
+  display: block;
+  margin: 0px auto 50px;
+  padding: 10px;
+  background-color: rgb(133, 156, 177);
+  font: 18px monospace;
+  color: rgb(158, 14, 187);
+  border: 2px solid black;
+  border-radius: 0px 0px 10px 10px;
+}
+
+#preview{
+  max-height: none;
+  width: 800px;
+  display: block;
+  margin: 0px auto;
+  padding: 10px;
+  background-color: rgb(195, 204, 214);
+  font: 18px Helvetica;
+  color: rgb(4, 102, 102);
+  border: 2px solid black;
+  border-radius: 0px 0px 10px 10px;
+}
+
+#previewHeading{
+  height: 25px;
+  width: 800px;
+  display: flex;
+  justify-content: center;
+  vertical-align: bottom;
+  margin: 0px auto;
+  padding: 10px;
+  background-color: rgb(110, 159, 207);
+  font: 22px Helvetica;
+  color:black;
+  border: 2px solid black;
+  border-bottom-style: none;
+  border-radius: 10px 10px 0px 0px;
+}
+
+#editorHeading{
+  height: 25px;
+  width: 800px;
+  display: flex;
+  justify-content: center;
+  vertical-align: bottom;
+  margin: 20px auto 0px;
+  padding: 10px;
+  background-color: rgb(110, 159, 207);
+  font: 22px Helvetica;
+  color:black;
+  border: 2px solid black;
+  border-bottom-style: none;
+  border-radius: 10px 10px 0px 0px;
+}
+table, th, td{
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+textarea{
+  outline: none;
+}
